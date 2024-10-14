@@ -4,11 +4,17 @@ A quantum mechanics visualizer module with live-updating graph - uses a simple v
 # `WaveFunction` Module
 
 Simulates the wave function of a particle in a one-dimensional box, based on quantum mechanics - allows for the visualization of the wave function by plotting it using part orbs. The wave function changes based on the quantum number and the box length, which gives dynamic way to visualize quantum states (for roblox)
+----
+## Simulation Video
+##### https://github.com/user-attachments/assets/fe004e60-afb8-4ff6-9479-12ed2c711f4a
 
+## Creator Store Model
+##### https://create.roblox.com/store/asset/115005313943668
+----
 ## Features
 - Simulates wave functions for different quantum numbers
 - Customizable box length and number of points
-- Visualizes the wave function as a 3D graph in Roblox
+- Visualizes the wave function as a 3D graph
 
 ## Constructor
 `WaveFunction.new(n, L, numPoints)`  
@@ -19,13 +25,13 @@ Creates a new wave function object with the following parameters:
 
 ## Methods
 ### `WaveFunction:calculateWaveFunction(x)`
-Calculates the wave function value (`ψ`) at a given `x` position in the box.
+Calculates the wave function value (`ψ`) at a given `x` position in the box
 
 ### `WaveFunction:createWaveGraph()`
-Generates the wave graph by creating `Part` objects at each point along the box, based on the calculated wave function.
+Generates the wave graph by creating part orbs at each point along the box based on the calculated wave function
 
 ### `WaveFunction:updateWaveGraph(newN)`
-Updates the wave graph for a new quantum number `n`, regenerating the graph with updated values.
+Updates the wave graph for a new quantum number `n` which regenerates the graph with updated values
 
 ## Example Usage
 
@@ -46,12 +52,6 @@ for quantumNumber = 1, graphRep do
 	waveFunction:updateWaveGraph(quantumNumber)
 end
 ```
-
-# Simulation Video
-https://github.com/user-attachments/assets/fe004e60-afb8-4ff6-9479-12ed2c711f4a
-
-# Creator Store Model
-##### https://create.roblox.com/store/asset/115005313943668
 
 ## How It Works
 - **Wave function calculation**: I calculate the wave function using this formula:  
