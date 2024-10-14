@@ -6,7 +6,7 @@ A quantum mechanics visualizer module with live-updating graph - uses a simple v
 Simulates the wave function of a particle in a one-dimensional box, based on quantum mechanics - allows for the visualization of the wave function by plotting it using part orbs. The wave function changes based on the quantum number and the box length, which gives dynamic way to visualize quantum states (for roblox)
 ----
 ## Simulation Video
-##### https://github.com/user-attachments/assets/fe004e60-afb8-4ff6-9479-12ed2c711f4a
+https://github.com/user-attachments/assets/fe004e60-afb8-4ff6-9479-12ed2c711f4a
 
 ## Creator Store Model
 ##### https://create.roblox.com/store/asset/115005313943668
